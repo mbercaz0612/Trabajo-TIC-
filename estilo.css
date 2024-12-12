@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#eeeeee ;
+}
+header {
+    border-style: dotted;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+   }
+   nav {
+    background-color: #444444;
+   }
+   nav ul {
+    list-style: none;
+   }
+   #menuPrincipal ul li {
+    display: inline;
+   }
+   a {
+    text-decoration: none;
+    color: #ffffff;
+   }
+   a:hover {
+    color: black;
+    background: yellow;
+  }
+   h2 {
+    background-color: #333333;
+    color: #ffffff;
+   }
+   
+   article {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+   }
+   footer {
+    border-radius: 0cap;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+   }            
+   main{
+    border-radius: 0cqb;
+   }
+   
