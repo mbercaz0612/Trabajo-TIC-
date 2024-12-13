@@ -44,4 +44,28 @@ header {
    main{
     border-radius: 0cqb;
    }
-   
+    header{
+        padding: 15px 20px;
+    }
+    h1{
+        margin: 0px 0px 15px 0px;
+    }
+    nav ul{
+        padding: 0px;
+    }
+    nav ul li{
+        margin: 0px 15px;
+    }
+    a{
+        padding: 10px 20px;
+    }
+    h2{
+        padding: 10px;
+    }
+    article{
+        margin: 0px 0px 10px 0px;
+        padding: 10px;
+    }
+    footer{
+        margin: 0px 0px 20px 0px;
+        padding:10px;
