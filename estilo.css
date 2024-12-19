@@ -1,16 +1,16 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color:#eeeeee ;
+    background-color: #008f39;
 }
 header {
     border-style: dotted;
-    background-color: #333333;
+    background-color: #308446;
     color: #ffffff;
     text-align: center;
    }
    nav {
-    background-color: #444444;
+    background-color: #31a84f;
    }
    nav ul {
     list-style: none;
@@ -27,21 +27,22 @@ header {
     background: yellow;
   }
    h2 {
-    background-color: #333333;
+    background-color: #31a84f;
     color: #ffffff;
    }
    
    article {
     border: 1px solid #cccccc;
-    background-color: #ffffff;
+    background-color: #31a84f;
    }
    footer {
     border-radius: 0cap;
-    background-color: #333333;
+    background-color: #308446;
     color: #ffffff;
     text-align: center;
    }            
    main{
+       background-color: #308446;
     border-radius: 0cqb;
    }
     header{
