@@ -18,22 +18,68 @@
 </nav>
 </header>    
 <main>
-<section>
-   <h2 class="tituloSeccion">¿Qué hacemos?</h2>
-    <article>
-        <h3>Función que cumplimos</h3>
-        <p>Arboles por Arboleas es una ONG que hemos creado en Arboleas parac ontrarrestar el problema de la excasa vegetación por esta zona del Mediterraneo.
-        </p>
-    </article>
-    <article>
-        <h3>Artículo 2</h3>
-        <p>Contenido del artículo 2.</p>
-    </article>
-</section>
+<hi>Formulario de contacto</hi>
+        <from action="#" method="get">
+            <fieldset>
+                <legend>Ficha de voluntario</legend>
+                <br>
+                
+                <!--Campo de trexto-->
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="Apellidos">Apellido:</label>
+                <input type="text" id="Apellidos" name="Apellidos"><br><br>
 
+
+                <!--Grupo de botones de radio-->
+            
+                <legenf>Genero:</legenf>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+
+                <label for="mujer">mujer</label>
+                <input type="radio" id="hombre" name="genero" value="mujer">
+
+                <label for="otro">Otro</label>
+                <input type="radio" id="otro" name="genero" value="otro">
+            
+        <br>
+
+       
+                <legend>Arbol favorito:</legend>
+                <label for="Abeto">Abeto</label>
+                <input type="chekbox" id="Abeto" name="Arbol favorito" value="Abeto">
+
+                <label for="Cipres">Cipres</label>
+                <input type="checkbox" id="Cipres" name="Arbol favorito" value="Cipres">
+
+                <label for="Cocotero">Cocotero</label>
+                <input type="chekbox" id="Cocotero" name="Arbol favorito" value="Cocotero">
+                
+                <label for="Otro">Otro</label>
+                <input type="chekbox" id="Otro" name="Arbol favorito" value="Otro">
+
+        <br>
+
+        <!--Caja de seleccion-->
+        <label for="Método de pago">Método de pago</label>
+        <select id="Método de pago" name="Método de pago">
+            <option value="Bizum">Bizum</option>
+            <option value="Cash">Cash</option>
+            <option value="Transferencia bancaria">Transferencia bancaria</option>
+        </select><br><br>
+
+        <legend>Anotación:</legend>
+        <textarea rows="6" cols="40"></textarea><br><br>
+
+        <!--Boton de envio-->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </fieldset>
+    </from>
 </main>           
 <footer>
-    <p>Pie de página</p>
+    <p>Arboles por Arboleas</p>
 </footer>
 </body>
 </html>
