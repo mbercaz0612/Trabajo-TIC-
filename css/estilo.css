@@ -36,7 +36,7 @@ header {
    article {
     
     background-color: #31a84f;
-    border-radius: 15px
+    border-radius: 15px;
    }
    footer {
     border-radius: 0cap;
@@ -65,6 +65,7 @@ header {
     }
     h2{
         padding: 10px;
+        border-radius: 15px;
     }
     article{
         margin: 0px 0px 10px 0px;
